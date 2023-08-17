@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>BlackJack</title>
+</head>
+<body>
+    <div class="text-center">
+        <h1>Blackjack</h1>
+        <div class="text-light">
+            <p id="message-el">Want to play a round?</p>
+            <p id="cards-el">Cards:</p>
+            <p id="sum-el">Sum:</p>
+        </div>
+        <button class="btn-start-game btn btn-warning btn-sm text-success mb-2 b-0" onclick="startGame()">START GAME</button>
+        <button class="btn-start-game btn btn-warning btn-sm text-success mb-2 b-0" onclick="newCard()">NEW CARD</button>
+        <button class="btn-start-game btn btn-danger btn-sm text-dark mb-2 b-0" onclick="reset()">RESET</button>
+        <p id="player-el" class="text-light fw-bold"></p>
+    </div>
+    <script src="/assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>

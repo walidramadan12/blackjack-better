@@ -1,0 +1,19 @@
+
+body{
+    background-image: url(/assets/pic/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+h1 {
+    color: #daa520;
+}
+.btn-start-game {
+    cursor: pointer;
+    width: 150px;
+    font-weight: bold;
+}
+#message-el {
+    font-style: italic;
+    font-weight: 500;
+}
